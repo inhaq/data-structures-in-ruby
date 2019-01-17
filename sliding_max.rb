@@ -11,6 +11,5 @@ def sliding_max(ar, k)
   print "\n"
 end
 
-# ar = [3, 1, 3, 5, 7, 9, 2]
 ar = [3, 9, 7, 3, 0, -1, 11, 3]
 sliding_max(ar[1..-1], ar[0])
